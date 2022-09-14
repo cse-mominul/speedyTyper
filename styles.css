@@ -30,6 +30,8 @@ body {
     rgba(255, 255, 255, 0.1) 0.18%,
     rgba(255, 255, 255, 0.05) 99.85%
   );
+
+  
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
 }
@@ -152,6 +154,10 @@ button {
 #histories {
   display: flex;
   flex-direction: row;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 .card {
